@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---link CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <!---icon top page-->
+  <link rel="icon" type="image/png" href="images/circle-black.png">
+  <title>RE / ACT</title>
+
+</head>
+
+<body>
+
+  <main>
+
+    <div id="game-intro">
+
+      <h1 id="title"> RE / ACT </h1>
+      <div id="rectangle"></div>
+      <div id="instructions-container">
+        <h4>Instructions:<br>On the keyboard,<br> press the key that corresponds
+          <br> to each color shown<br>inside the circle
+        </h4>
+      </div>
+
+      <div id="colors">
+        <div> 🔴 :A</div>
+        <div> 🔵 : T</div>
+        <div> ⚫ : L</div>
+        <div> 🟢 :V</div>
+
+        <button id="start"> START </button>
+
+      </div>
+
+    </div>
+
+
+    <div id="game-container">
+
+      <div class="timer">Timer: 10</div>
+      <div class="score">Score: 0</div>
+      <div id="circle"> </div>
+      <button id="reset"> RESET </button>
+
+    </div>
+
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+
+</html>
